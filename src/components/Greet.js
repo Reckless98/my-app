@@ -8,7 +8,8 @@ import React from "react";
 
 // With ES6
 
-const Greet = (props) => {
+const Greet = props => {
+  //const {name, heroName} = props
   console.log(props);
   return (
     <div>
